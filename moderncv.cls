@@ -291,6 +291,7 @@
 % - "arxiv"
 % - "inspire"
 % - "osf"
+% - "zotero"
 \collectionnew{socials}
 \NewDocumentCommand{\social}{O{}O{}m}{%
   \ifthenelse{\equal{#2}{}}%
@@ -326,6 +327,7 @@
       \ifthenelse{\equal{#1}{arxiv}}        {\collectionadd[arxiv]{socials}        {\protect\httpslink[#3]{arxiv.org/a/#3}}}                       {}%
       \ifthenelse{\equal{#1}{inspire}}      {\collectionadd[inspire]{socials}        {\protect\httpslink[#3]{inspirehep.net/authoris/#3}}}           {}%
       \ifthenelse{\equal{#1}{osf}}          {\collectionadd[osf]{socials}          {\protect\httpslink[#3]{osf.io/#3}}}                            {}%
+      \ifthenelse{\equal{#1}{zotero}}       {\collectionadd[zotero]{socials}       {\protect\httpslink[#3]{zotero.com/#3}}}                        {}%
       }
     {\collectionadd[#1]{socials}{\protect\httpslink[#3]{#2}}}}%
 
@@ -394,6 +396,7 @@
 \newcommand*{\arxivsocialsymbol}        {}
 \newcommand*{\inspiresocialsymbol}      {}
 \newcommand*{\osfsocialsymbol}          {}
+\newcommand*{\zoterosocialsymbol}       {}
 
 % other
 %------
