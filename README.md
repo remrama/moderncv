@@ -13,7 +13,7 @@ The `moderncv` package provides a document class for typesetting applications (c
 ### Installation
 `moderncv` should already be included in your installed LaTeX distribution.
 If not, you can get the tarball of the package from [CTAN](https://www.ctan.org/pkg/moderncv).
-Alternatively, you can also build the package from source by cloning the its [GitHub repository](https://github.com/moderncv/moderncv) and compiling the included LaTeX files:
+Alternatively, you can also build the package from source by cloning the [GitHub repository](https://github.com/moderncv/moderncv) and compiling the included LaTeX files:
 ```
 latexmk -pdf ./template.tex manual/moderncv_userguide.tex
 ```
