@@ -314,7 +314,7 @@
       \ifthenelse{\equal{#1}{codeberg}}     {\collectionadd[codeberg]{socials}     {\protect\httpslink[#3]{codeberg.org/#3}}}                      {}%
       \ifthenelse{\equal{#1}{discord}}      {\collectionadd[discord]{socials}      {#3}}                                                           {}%
       \ifthenelse{\equal{#1}{twitch}}       {\collectionadd[twitch]{socials}       {\protect\httpslink[#3]{twitch.tv/#3}}}                         {}%
-      \ifthenelse{\equal{#1}{youtube}}      {\collectionadd[youtube]{socials}      {\protect\httpslink[#3]{youtube.com/#3}}}                       {}%
+      \ifthenelse{\equal{#1}{youtube}}      {\collectionadd[youtube]{socials}      {\protect\httpslink[#3]{youtube.com/@#3}}}                      {}%
       \ifthenelse{\equal{#1}{tiktok}}       {\collectionadd[tiktok]{socials}       {\protect\httpslink[#3]{tiktok.com/@#3}}}                       {}%
       \ifthenelse{\equal{#1}{instagram}}    {\collectionadd[instagram]{socials}    {\protect\httpslink[#3]{instagram.com/#3}}}                     {}%
       \ifthenelse{\equal{#1}{soundcloud}}   {\collectionadd[soundcloud]{socials}   {\protect\httpslink[#3]{soundcloud.com/#3}}}                    {}%
